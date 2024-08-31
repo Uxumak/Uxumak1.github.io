@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portafolio Profesional</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <div class="background"></div>
+    <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+        <div class="container-fluid">
+            <a class="navbar-brand text-white" href="#">Mi Portafolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active text-white" aria-current="page" href="#">Inicio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#about">Sobre mí</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#portfolio">Portafolio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link text-white" href="#contact">Contacto</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+    <header class="text-white text-center py-5">
+        <div class="container">
+            <h1>Jean Pier Campo Montoya</h1>
+            <p class="lead">Profesional el desarrollo de software</p>
+        </div>
+    </header>
+
+    <section id="about" class="py-5 bg-transparent">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4">
+                    <img src="1.jpg" class="img-fluid rounded-circle" alt="Tu Foto">
+                </div>
+                <div class="col-lg-8">
+                    <h2 class="text-white">Sobre mí</h2>
+                    <p class="text-white"> un apasionado desarrollador de software con experiencia en [menciona tus tecnologías o lenguajes principales, ej: Python, Java, React]. Me encanta crear soluciones tecnológicas innovadoras que resuelvan problemas reales. Mi enfoque se basa en la calidad del código, la eficiencia y la entrega de productos que superen las expectativas.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="portfolio" class="py-5 bg-transparent">
+        <div class="container">
+            <h2 class="text-center text-white">Mi Portafolio</h2>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0 text-white mb-4">
+                        <img src="Proyecto 1.webp" class="card-img-top" alt="Proyecto 1">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 1</h5>
+                            <p class="card-text">fui responsable de crear y mantener los sistemas de combate del juego. Mi trabajo se centró en desarrollar mecánicas de juego fluidas y dinámicas, diseñando la inteligencia artificial de los enemigos y creando efectos visuales impactantes para las habilidades de Kratos. Además, colaboré en la optimización del motor gráfico para asegurar un rendimiento óptimo en diferentes plataformas.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0 text-white mb-4">
+                        <img src="Proyecto 2.webp" class="card-img-top" alt="Proyecto 2">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 2</h5>
+                            <p class="card-text">En el equipo de desarrollo de Minecraft, mi rol fue contribuir a la creación y mantenimiento de las herramientas de generación de mundos procedimentales. Trabajé en la implementación de nuevos biomas, estructuras y elementos del juego, asegurando que cada mundo generado fuera único y lleno de posibilidades. Además, participé en la creación de mods y plugins para la comunidad, ampliando las opciones de personalización del juego.</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="card bg-transparent border-0 text-white mb-4">
+                        <img src="Proyecto 3.webp" class="card-img-top" alt="Proyecto 3">
+                        <div class="card-body">
+                            <h5 class="card-title">Proyecto 3</h5>
+                            <p class="card-text">Como desarrollador de apps móviles, trabajé en la creación de aplicaciones para iOS y Android. Mi principal enfoque fue el desarrollo de una aplicación de redes sociales para conectar a los usuarios a través de intereses comunes. Fui responsable del diseño de la interfaz de usuario, la implementación de las funcionalidades principales (chat, notificaciones, perfiles de usuario) y la integración con servicios externos (push notifications, autenticación).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="py-5 bg-transparent">
+        <div class="container">
+            <h2 class="text-center text-white">Contacto</h2>
+            <div class="row">
+                <div class="col-lg-6 mx-auto">
+                    <form>
+                        <div class="mb-3">
+                            <label for="name" class="form-label text-white">Nombre</label>
+                            <input type="text" class="form-control bg-transparent text-white border-0" id="name" placeholder="Tu Nombre">
+                        </div>
+                        <div class="mb-3">
+                            <label for="email" class="form-label text-white">Correo Electrónico</label>
+                            <input type="email" class="form-control bg-transparent text-white border-0" id="email" placeholder="nombre@ejemplo.com">
+                        </div>
+                        <div class="mb-3">
+                            <label for="message" class="form-label text-white">Mensaje</label>
+                            <textarea class="form-control bg-transparent text-white border-0" id="message" rows="5" placeholder="Escribe tu mensaje aquí..."></textarea>
+                        </div>
+                        <button type="submit" class="btn btn-outline-light">Enviar</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="text-white text-center py-4 bg-transparent">
+        
+        </div>
+            <p>Sígueme en: 
+                <div class="container">
+                    <div class="social-media"></div>
+                    <h3></h3>
+                    <a href="www.twitter.com" target="_blank" class="social-icon">
+                        <i class="fab fa-twitter"></i>
+                    </a>
+                    <a href="www.facebook.com" target="_blank" class="social-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </a>
+                    <a href="www.instagram.com" target="_blank" class="social-icon">
+                        <i class="fab fa-instagram"></i>
+                    </a>
+                    <a href="www.linkedin.com" target="_blank" class="social-icon">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+            </p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
